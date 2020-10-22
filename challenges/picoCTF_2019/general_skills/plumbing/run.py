@@ -1,4 +1,6 @@
 from pwn import *
+context.log_level = 'error'
+
 sh = remote('jupiter.challenges.picoctf.org', 41521)
 
 binary = sh.recvuntil('Input:\n').decode('UTF-8').split('\n')[2].split(' ')[3:-3]
