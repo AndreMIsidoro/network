@@ -1,1 +1,0 @@
-These are my solutions for picoCTF 2018

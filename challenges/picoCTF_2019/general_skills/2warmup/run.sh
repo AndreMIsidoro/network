@@ -1,1 +1,0 @@
-python3 -c 'print("picoCTF{" + str(bin(42)[2:]) + "}")'
