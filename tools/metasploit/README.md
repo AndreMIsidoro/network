@@ -7,4 +7,4 @@
 ## Usage Example
 
 	search <name_of_service> <version_of_service>
-
+	search vsftpd 2.3.4
