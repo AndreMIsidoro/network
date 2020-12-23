@@ -8,3 +8,5 @@
 ## Usage Example
 
 	searchsploit <name_of_service> <version_of_service>
+	
+	searchsploit vsftpd 2.3.4
