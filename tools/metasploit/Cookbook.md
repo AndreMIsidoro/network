@@ -5,3 +5,10 @@
 	3rd) Show the exploit options: show options
 	4th) Set the necessary options: set <option_name> <option_value> (set RHOSTS 10.10.10.3)
 	5th) run the exploit: run
+
+
+**ReverseLIstenerBindAddress**
+	
+	It is used to set reverse shells
+	
+	set ReverseLIstenerBindAddress <local_interface_ip>
