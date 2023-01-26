@@ -18,3 +18,14 @@ Despite having the ability to secure access to the share, a network administrato
 In order to successfully enumerate share content on the remote system, we can use a script called smbclient .
 
 Smbclient will attempt to connect to the remote host and check if there is any authentication required. If there is, it will ask you for a password for your local username. We should take note of this. If we do not specify a specific username to smbclient when attempting to connect to the remote host, it will just use your local machine's username. That is the one you are currently logged into your Virtual Machine with. This is because SMB authentication always requires a username, so by not giving it one explicitly to try to login with, it will just have to pass your current local username to avoid throwing an error with the protocol.
+
+## smbclient Options
+
+	-L : lists the shares on target host
+
+## smb shell Commands
+
+	ls : listing contents of the directories within the share
+	cd : changing current directories within the share
+	get : downloading the contents of the directories within the share
+	exit : exiting the smb shell
