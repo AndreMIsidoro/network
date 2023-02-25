@@ -22,6 +22,10 @@ Smbclient will attempt to connect to the remote host and check if there is any a
 ## smbclient Options
 
 	-L : lists the shares on target host
+	
+## smbclient commands
+
+	\\\\<target_ip>\\<share_name> # connects to the desired share
 
 ## smb shell Commands
 
