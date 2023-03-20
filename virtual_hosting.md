@@ -6,6 +6,11 @@ Virtual hosting is a method for hosting multiple domain names (with separate han
 
 There are two main types of virtual hosting, name-based and IP-based. Name-based virtual hosting uses the host name presented by the client. This saves IP addresses and the associated administrative overhead but the protocol being served must supply the host name at an appropriate point. In particular, there are significant difficulties using name-based virtual hosting with SSL/TLS. IP-based virtual hosting uses a separate IP address for each host name, and it can be performed with any protocol but requires a dedicated IP address per domain name served. Port-based virtual hosting is also possible in principle but is rarely used in practice because it is unfriendly to users.
 
+A technical prerequisite needed for name-based virtual hosts is a web browser with
+HTTP/1.1 support (commonplace today) to include the target hostname in the request.
+This allows a server hosting multiple sites behind one IP address to deliver the
+correct site's content. More specifically it means setting the Host HTTP header, which
+is mandatory in HTTP/1.1.
 
 ## Name Based Hosting
 
