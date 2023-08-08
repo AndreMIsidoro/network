@@ -34,3 +34,9 @@ Smbclient will attempt to connect to the remote host and check if there is any a
 	cd : changing current directories within the share
 	get : downloading the contents of the directories within the share
 	exit : exiting the smb shell
+
+## Cookbook
+
+Download file from smb
+
+	get <file_name>
