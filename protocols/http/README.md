@@ -1,5 +1,12 @@
 # http
 
+## Status Codes
+
+	200	Ok	The request succeeded
+	301	Moved Permanently	The URL of the requested resource has been changed permanently. The new URL is given in the response.
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
 ## http Headers
 
 	Accept	Media type(s) that is/are acceptable for the response.
@@ -8,4 +15,4 @@ Mandatory since HTTP/1.1
 	Content-Type	The MIME type of this content
 
 
-	https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
