@@ -40,3 +40,7 @@ Smbclient will attempt to connect to the remote host and check if there is any a
 Download file from smb
 
 	get <file_name>
+
+Start a smb server:
+
+	https://github.com/Andre92Marcos/tools/tree/master/impacket
