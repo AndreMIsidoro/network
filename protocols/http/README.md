@@ -33,3 +33,10 @@ If the HttpOnly flag (optional) is included in the HTTP response header, the coo
 If a browser that supports HttpOnly detects a cookie containing the HttpOnly flag, and client side script code attempts to read the cookie, the browser returns an empty string as the result. This causes the attack to fail by preventing the malicious (usually XSS) code from sending the data to an attacker’s website.
 
 https://owasp.org/www-community/HttpOnly
+
+
+## https
+
+### ssl/tls
+
+https://www.youtube.com/watch?v=25_ftpJ-2ME
