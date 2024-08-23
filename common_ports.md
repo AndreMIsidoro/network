@@ -13,3 +13,5 @@
 389 - - LDAP
 
 636 - - LDAP over SSL (LDAPS)
+
+3389 - - RDP Remote Desktop Protocal
