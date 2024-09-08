@@ -2,6 +2,8 @@
 
 ## Ports
 
+21 - - FTP - File Transfer Protocol
+
 22 - - SSH
 
 53 - TCP/UDP - DNS
