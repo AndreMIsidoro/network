@@ -20,6 +20,8 @@
 
 445 - TCP - Server Message Block (SMB)
 
+464 - TCP/UDP - Kerberos v5
+
 636 - - LDAP over SSL (LDAPS)
 
 3389 - - RDP Remote Desktop Protocal
