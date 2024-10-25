@@ -26,6 +26,10 @@
 
 3389 - - RDP Remote Desktop Protocal
 
+5985 - - WinRM - Windows Remote Management over http
+
+5986 - - WinRM - Windows Remote Management over https
+
 
 ## More Information
 
