@@ -24,6 +24,8 @@
 
 636 - - LDAP over SSL (LDAPS)
 
+1080 - TCP/UDP - Socks5
+
 3389 - - RDP Remote Desktop Protocal
 
 5985 - - WinRM - Windows Remote Management over http
