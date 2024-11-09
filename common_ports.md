@@ -4,9 +4,9 @@
 
 21 - - FTP - File Transfer Protocol
 
-25 - TCP - SMTP - Simple Mail Transfer Protocol
-
 22 - - SSH
+
+25 - TCP - SMTP - Simple Mail Transfer Protocol
 
 53 - TCP/UDP - DNS
 
