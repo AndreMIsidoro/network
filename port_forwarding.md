@@ -28,6 +28,15 @@ We can use socat for this
 This sends all incoming traffic in port 5001 to 5000
 Can be used with the previous ssh command
 
+
+## Port forwarding with SOCKS5
+
+We can use ssh -D 1080 to use a dynamic socks5 port.
+
+Then if we connect to the port (for instance using foxy proxy on port 1080) we can access to the ports on the remote server.
+
+In the command line we can use proxychains (need to check config /etc/proxychains.conf)
+
 ## Tool for windows and Linux
 
 	chisel: https://github.com/Andre92Marcos/tools/tree/master/chisel
