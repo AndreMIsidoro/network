@@ -1,3 +1,20 @@
+# ssh
+
+
+## Generate ssh keys and add key to ~/.ssh/authorized_keys
+
+	keygen -t rsa -b 4096
+
+	cat <public_key>.pub >> ~/.ssh/authorized_keys
+
+Finally login with the private key
+
+	ssh <user>@<targetip> -i <private_key>
+
+
+
+
+
 **Execute commands in a remote host**
 
 	ssh user@host << END
