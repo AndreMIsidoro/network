@@ -7,6 +7,8 @@
 	Let's say that we have a remote host running an application on port 4444, that only accepts local connections. We can port forward to our localhost by doing this in our localhost
 	ssh <user>@<ip_remote_host> -L 4444:127.0.0.1:4444
 
+	The -L command tells the SSH client to request the SSH server to forward all the data we send via the port 4444 to localhost:4444
+
 ## Remote port forwarding
 
 	ssh -R remote_port:local_host:local_port
