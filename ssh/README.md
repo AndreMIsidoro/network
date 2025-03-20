@@ -3,8 +3,10 @@
 
 ## Generate ssh keys and add key to ~/.ssh/authorized_keys
 
-	keygen -t rsa -b 4096
-	keygen -t ed_25519
+```shell
+	ssh-keygen -t rsa -b 4096
+	ssh-keygen -t ed_25519
+```
 
 	cat <public_key>.pub >> ~/.ssh/authorized_keys
 
