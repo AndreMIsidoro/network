@@ -4,7 +4,7 @@
 ## Generate ssh keys and add key to ~/.ssh/authorized_keys
 
 ```shell
-	ssh-keygen -t rsa -b 4096
+	ssh-keygen -t rsa -b 4096 -f /path/to/your/directory/my_ssh_key
 	ssh-keygen -t ed_25519
 ```
 
