@@ -14,9 +14,13 @@
 
 88 - TCP/UDP - Kerberos
 
+123 - UDP - NTP - Network Time Protocol
+
 135 - TCP/UDP - Remote Procedure Call (RPC)
 
 139 - TCP/UDP - NetBIOS or Server Message Block (SMB)
+
+161 - UDP - SNMP - Simple Network Management Protocol
 
 389 - - LDAP
 
