@@ -32,6 +32,8 @@
 
 1080 - TCP/UDP - Socks5
 
+2049 - UDP - NFS Network File System
+
 3389 - - RDP Remote Desktop Protocal
 
 5985 - - WinRM - Windows Remote Management over http
